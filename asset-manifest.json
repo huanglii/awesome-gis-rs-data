@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Awesome-GIS-RS-Data/static/css/main.2b42e917.chunk.css",
+    "main.js": "/Awesome-GIS-RS-Data/static/js/main.3a5aad4b.chunk.js",
+    "runtime-main.js": "/Awesome-GIS-RS-Data/static/js/runtime-main.1e3c401f.js",
+    "static/css/2.eda25890.chunk.css": "/Awesome-GIS-RS-Data/static/css/2.eda25890.chunk.css",
+    "static/js/2.ab5f047d.chunk.js": "/Awesome-GIS-RS-Data/static/js/2.ab5f047d.chunk.js",
+    "index.html": "/Awesome-GIS-RS-Data/index.html",
+    "precache-manifest.56d608f342dfd77ca587018acb9080a6.js": "/Awesome-GIS-RS-Data/precache-manifest.56d608f342dfd77ca587018acb9080a6.js",
+    "service-worker.js": "/Awesome-GIS-RS-Data/service-worker.js",
+    "static/js/2.ab5f047d.chunk.js.LICENSE": "/Awesome-GIS-RS-Data/static/js/2.ab5f047d.chunk.js.LICENSE",
+    "static/media/index.less": "/Awesome-GIS-RS-Data/static/media/bg.3b513c42.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e3c401f.js",
+    "static/css/2.eda25890.chunk.css",
+    "static/js/2.ab5f047d.chunk.js",
+    "static/css/main.2b42e917.chunk.css",
+    "static/js/main.3a5aad4b.chunk.js"
+  ]
+}
