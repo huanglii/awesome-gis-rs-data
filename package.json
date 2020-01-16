@@ -1,0 +1,37 @@
+{
+  "name": "awesome-gis-rs-data",
+  "version": "0.2.0",
+  "private": true,
+  "homepage": "https://huanglii.github.io/Awesome-GIS-RS-Data",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "dependencies": {
+    "antd": "^3.26.4",
+    "core-js": "^3.6.4",
+    "lodash": "^4.17.15",
+    "randomcolor": "^0.5.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "react-app-rewired": "^2.1.5"
+  },
+  "browserslist": "> 1%, last 2 versions"
+}

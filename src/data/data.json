@@ -1,0 +1,68 @@
+[
+  {
+    "title": "高德行政区划下载",
+    "link": "https://giser.xyz/demo/03-Dist-AMap/index.html",
+    "description": "利用高德地图 API 扩展的行政区划下载工具，可下载省、市、区/县级别。",
+    "tags": ["区划"]
+  },
+  {
+    "title": "全国地理信息资源目录服务系统",
+    "link": "http://www.webmap.cn/",
+    "description": "国家基础测绘地理信息资源共享目录，包含：30米全球地表覆盖数据、1:100万和1:25万全国基础地理数据库等。",
+    "tags": ["全国", "基础", "地理信息", "地表覆盖"]
+  },
+  {
+    "title": "地理空间数据云",
+    "link": "http://www.gscloud.cn/",
+    "description": "遥感数据一站式服务，包含：免费数据（LANDSAT、MODIS等）、商业数据（高分系列、资源系列等）。",
+    "tags": ["遥感", "LANDSAT", "MODIS", "DEM"]
+  },
+  {
+    "title": "资源环境数据云平台",
+    "link": "http://www.resdc.cn/",
+    "description": "中国科学院资源环境科学数据中心，注册后可免费下载。",
+    "tags": ["区划", "气象", "土地利用", "植被类型", "土壤", "夜间灯光", "DEM"]
+  },
+  {
+    "title": "国家地球系统科学数据中心",
+    "link": "http://www.geodata.cn/",
+    "description": "提供大气圈、陆地表层、陆地水圈、冰冻圈、海洋、极地等地理数据。注册后可免费下载。",
+    "tags": ["科学数据", "大气", "区划", "土地", "水文", "自然资源", "经济", "遥感"]
+  },
+  {
+    "title": "Natural Earth",
+    "link": "http://www.naturalearthdata.com/",
+    "description": "提供全球范围内的矢量和影像数据。",
+    "tags": ["全球", "矢量", "影像"]
+  },
+  {
+    "title": "北京大学图书馆-数据库导航",
+    "link": "http://dbnav.lib.pku.edu.cn/",
+    "description": "数据库检索导航。",
+    "tags": ["数据库"]
+  },
+  {
+    "title": "SRTM Data",
+    "link": "http://srtm.csi.cgiar.org/",
+    "description": "SRTM数据主要是由美国航空航天局（NASA）和国防部国家测绘局（NIMA)联合测量的，SRTM的全称Shuttle Radar Topography Mission，即航天飞机雷达地形测绘使命。SRTM的数据是用16位的数值表示高程数值的，最大的正高程9000m，负高程海平面以下12000m。",
+    "tags": ["SRTM", "DEM"]
+  },
+  {
+    "title": "USGS - GIS Data",
+    "link": "https://www.usgs.gov/products/data-and-tools/gis-data",
+    "description": "GIS 数据",
+    "tags": ["气候", "环境", "自然灾害", "土地利用", "地震"]
+  },
+  {
+    "title": "USGS - EarthExplorer",
+    "link": "https://earthexplorer.usgs.gov/",
+    "description": "遥感数据集，需注册登录",
+    "tags": ["遥感", "LANDSAT"]
+  },
+  {
+    "title": "国家气象科学数据中心",
+    "link": "http://data.cma.cn/",
+    "description": "依托全国综合气象信息共享平台（CIMISS）统一数据环境和服务接口，提供完整、及时、稳定、准确的气象数据服务。需注册登录",
+    "tags": ["气象"]
+  }
+]

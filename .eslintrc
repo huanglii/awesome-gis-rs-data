@@ -1,0 +1,10 @@
+{
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "browser": true,
+    "serviceworker": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"]
+}

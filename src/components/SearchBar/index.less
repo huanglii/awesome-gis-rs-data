@@ -1,0 +1,37 @@
+.search-bar {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: url(~@/assets/bg.jpg) repeat center;
+  // background: url(http://www.ypppt.com/style/index-header.jpg) repeat center;
+  &-container {
+    max-width: @app-max-width;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+  }
+  h1, h3, input, i, .ant-tag {
+    color: #eee;
+  }
+  .search-text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.18);
+    .text-input {
+      input {
+        height: 50px;
+        border-color: #696969;
+        font-size: 18px;
+        background-color: rgba(255,255,255,0.35);
+      }
+    }
+  }
+  .search-tag {
+    margin: 32px 0;
+  }
+  .search-clear {
+    display: block;
+    font-size: 16px;
+  }
+}
