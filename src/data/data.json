@@ -64,5 +64,11 @@
     "link": "http://data.cma.cn/",
     "description": "依托全国综合气象信息共享平台（CIMISS）统一数据环境和服务接口，提供完整、及时、稳定、准确的气象数据服务。需注册登录",
     "tags": ["气象"]
+  },
+  {
+    "title": "空气质量历史数据 | 气象历史数据",
+    "link": "http://beijingair.sinaapp.com/",
+    "description": "空气质量数据类型包括PM2.5, PM10, SO2, NO2, O3, CO, AQI。气象数据要素包括气温、气压、露点、风向风速、云量、降水量。",
+    "tags": ["空气质量", "气象"]
   }
 ]
