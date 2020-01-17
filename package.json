@@ -2,7 +2,7 @@
   "name": "awesome-gis-rs-data",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://huanglii.github.io/Awesome-GIS-RS-Data",
+  "homepage": "https://huanglii.github.io/awesome-gis-rs-data",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",

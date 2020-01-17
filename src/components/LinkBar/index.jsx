@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { Modal, Tooltip, Icon } from 'antd'
-
-// import IconFont from '../IconFont'
-
+import config from '@/config'
 import './index.less'
 
-const githubUrl = 'https://github.com/huanglii/Awesome-GIS-RS-Data'
-const dataUrl = 'https://github.com/huanglii/Awesome-GIS-RS-Data/blob/master/src/data/data.json'
+const { packageName } = config
+const githubUrl = `https://github.com/huanglii/${packageName}`
+const dataUrl = `https://github.com/huanglii/${packageName}/blob/master/src/data/data.json`
 
 class LinkBar extends Component {
   handleContributeClick () {
