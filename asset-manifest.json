@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Awesome-GIS-RS-Data/static/css/main.2b42e917.chunk.css",
-    "main.js": "/Awesome-GIS-RS-Data/static/js/main.3a5aad4b.chunk.js",
-    "runtime-main.js": "/Awesome-GIS-RS-Data/static/js/runtime-main.1e3c401f.js",
-    "static/css/2.eda25890.chunk.css": "/Awesome-GIS-RS-Data/static/css/2.eda25890.chunk.css",
-    "static/js/2.ab5f047d.chunk.js": "/Awesome-GIS-RS-Data/static/js/2.ab5f047d.chunk.js",
-    "index.html": "/Awesome-GIS-RS-Data/index.html",
-    "precache-manifest.56d608f342dfd77ca587018acb9080a6.js": "/Awesome-GIS-RS-Data/precache-manifest.56d608f342dfd77ca587018acb9080a6.js",
-    "service-worker.js": "/Awesome-GIS-RS-Data/service-worker.js",
-    "static/js/2.ab5f047d.chunk.js.LICENSE": "/Awesome-GIS-RS-Data/static/js/2.ab5f047d.chunk.js.LICENSE",
-    "static/media/index.less": "/Awesome-GIS-RS-Data/static/media/bg.3b513c42.jpg"
+    "main.css": "/awesome-gis-rs-data/static/css/main.ce1b2abc.chunk.css",
+    "main.js": "/awesome-gis-rs-data/static/js/main.6374e7b4.chunk.js",
+    "runtime-main.js": "/awesome-gis-rs-data/static/js/runtime-main.87a003d0.js",
+    "static/css/2.eda25890.chunk.css": "/awesome-gis-rs-data/static/css/2.eda25890.chunk.css",
+    "static/js/2.b99b98b0.chunk.js": "/awesome-gis-rs-data/static/js/2.b99b98b0.chunk.js",
+    "index.html": "/awesome-gis-rs-data/index.html",
+    "precache-manifest.9895a5fe140222bdbb43b1287ceb19d7.js": "/awesome-gis-rs-data/precache-manifest.9895a5fe140222bdbb43b1287ceb19d7.js",
+    "service-worker.js": "/awesome-gis-rs-data/service-worker.js",
+    "static/js/2.b99b98b0.chunk.js.LICENSE": "/awesome-gis-rs-data/static/js/2.b99b98b0.chunk.js.LICENSE",
+    "static/media/index.less": "/awesome-gis-rs-data/static/media/bg.3b513c42.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e3c401f.js",
+    "static/js/runtime-main.87a003d0.js",
     "static/css/2.eda25890.chunk.css",
-    "static/js/2.ab5f047d.chunk.js",
-    "static/css/main.2b42e917.chunk.css",
-    "static/js/main.3a5aad4b.chunk.js"
+    "static/js/2.b99b98b0.chunk.js",
+    "static/css/main.ce1b2abc.chunk.css",
+    "static/js/main.6374e7b4.chunk.js"
   ]
 }

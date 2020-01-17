@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Awesome-GIS-RS-Data/precache-manifest.56d608f342dfd77ca587018acb9080a6.js"
+  "/awesome-gis-rs-data/precache-manifest.9895a5fe140222bdbb43b1287ceb19d7.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Awesome-GIS-RS-Data/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/awesome-gis-rs-data/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
