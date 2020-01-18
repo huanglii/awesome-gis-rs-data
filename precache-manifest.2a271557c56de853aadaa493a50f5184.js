@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53f0d09baa66332e25e66fb8e5365176",
+    "revision": "d1ffcee9cbe0b536a7b639cc0019c976",
     "url": "/awesome-gis-rs-data/index.html"
   },
   {
-    "revision": "7088dcb1287d79d1428c",
-    "url": "/awesome-gis-rs-data/static/css/2.04fb3a08.chunk.css"
+    "revision": "c921b01cf3434ab0ee7b",
+    "url": "/awesome-gis-rs-data/static/css/2.a6b5f1ed.chunk.css"
   },
   {
-    "revision": "d1b67753450f7b773398",
+    "revision": "7ab77f2b297d7de83b0b",
     "url": "/awesome-gis-rs-data/static/css/main.908c905a.chunk.css"
   },
   {
-    "revision": "7088dcb1287d79d1428c",
-    "url": "/awesome-gis-rs-data/static/js/2.f7653c49.chunk.js"
+    "revision": "c921b01cf3434ab0ee7b",
+    "url": "/awesome-gis-rs-data/static/js/2.4fc6309e.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/awesome-gis-rs-data/static/js/2.f7653c49.chunk.js.LICENSE"
+    "url": "/awesome-gis-rs-data/static/js/2.4fc6309e.chunk.js.LICENSE"
   },
   {
-    "revision": "d1b67753450f7b773398",
-    "url": "/awesome-gis-rs-data/static/js/main.d246170b.chunk.js"
+    "revision": "7ab77f2b297d7de83b0b",
+    "url": "/awesome-gis-rs-data/static/js/main.d5d6996b.chunk.js"
   },
   {
     "revision": "e5fe4bda90ba9b3bdbc3",
