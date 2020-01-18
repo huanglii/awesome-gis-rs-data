@@ -4,6 +4,7 @@ import { BackTop } from 'antd'
 import { Provider } from '@/context'
 import SearchBar from '@/components/SearchBar'
 import DataList from '@/components/DataList'
+import FooterBar from '@/components/FooterBar'
 
 import staticData from '../data'
 const { data, tags, tagColorMap } = staticData
@@ -46,6 +47,7 @@ class App extends Component {
           />
           <DataList data={data} filterText={filterText} filterTags={filterTags} />
           <BackTop />
+          <FooterBar />
         </div>
       </Provider>
     )
