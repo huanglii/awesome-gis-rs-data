@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/awesome-gis-rs-data/static/css/main.908c905a.chunk.css",
-    "main.js": "/awesome-gis-rs-data/static/js/main.23aa6161.chunk.js",
+    "main.js": "/awesome-gis-rs-data/static/js/main.d246170b.chunk.js",
     "runtime-main.js": "/awesome-gis-rs-data/static/js/runtime-main.87a003d0.js",
     "static/css/2.04fb3a08.chunk.css": "/awesome-gis-rs-data/static/css/2.04fb3a08.chunk.css",
     "static/js/2.f7653c49.chunk.js": "/awesome-gis-rs-data/static/js/2.f7653c49.chunk.js",
     "index.html": "/awesome-gis-rs-data/index.html",
-    "precache-manifest.fa6dd9095490417a9ee60860bae380a3.js": "/awesome-gis-rs-data/precache-manifest.fa6dd9095490417a9ee60860bae380a3.js",
+    "precache-manifest.39a848bd7beffbc17679a6b1827bff3c.js": "/awesome-gis-rs-data/precache-manifest.39a848bd7beffbc17679a6b1827bff3c.js",
     "service-worker.js": "/awesome-gis-rs-data/service-worker.js",
     "static/js/2.f7653c49.chunk.js.LICENSE": "/awesome-gis-rs-data/static/js/2.f7653c49.chunk.js.LICENSE",
     "static/media/index.less": "/awesome-gis-rs-data/static/media/bg.3b513c42.jpg"
@@ -16,6 +16,6 @@
     "static/css/2.04fb3a08.chunk.css",
     "static/js/2.f7653c49.chunk.js",
     "static/css/main.908c905a.chunk.css",
-    "static/js/main.23aa6161.chunk.js"
+    "static/js/main.d246170b.chunk.js"
   ]
 }

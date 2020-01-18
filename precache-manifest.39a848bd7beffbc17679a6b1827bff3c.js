@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef60b8aa06a146de242fd94e0ab0f671",
+    "revision": "53f0d09baa66332e25e66fb8e5365176",
     "url": "/awesome-gis-rs-data/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awesome-gis-rs-data/static/css/2.04fb3a08.chunk.css"
   },
   {
-    "revision": "9df80288ac74ccc3301d",
+    "revision": "d1b67753450f7b773398",
     "url": "/awesome-gis-rs-data/static/css/main.908c905a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awesome-gis-rs-data/static/js/2.f7653c49.chunk.js.LICENSE"
   },
   {
-    "revision": "9df80288ac74ccc3301d",
-    "url": "/awesome-gis-rs-data/static/js/main.23aa6161.chunk.js"
+    "revision": "d1b67753450f7b773398",
+    "url": "/awesome-gis-rs-data/static/js/main.d246170b.chunk.js"
   },
   {
     "revision": "e5fe4bda90ba9b3bdbc3",
