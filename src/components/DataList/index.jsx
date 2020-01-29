@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { List } from 'antd'
 import array from 'lodash/array'
 
+import { includes } from '@/util'
+
 import DataItem from '../DataItem'
 import './index.less'
 
@@ -15,15 +17,13 @@ class DataList extends Component {
 
   render () {
     const { data, filterText, filterTags } = this.props
+
     const filterData = data.filter(item => {
-      const { title, description, tags } = item
+      const { hanziTxt, pinyinTxt, tags } = item
       // 转小写
-      const lcTitle = title.toLowerCase() // 标题
-      const lcDescription = description.toLowerCase() // 概要
-      const lcTagsText = tags.join().toLowerCase() // 标签
       const lcFilterText = filterText.toLowerCase()
-      const hasTag = array.intersection(tags, filterTags).length > 0
-      const hasTxt = lcTitle.includes(lcFilterText) || lcDescription.includes(lcFilterText) || lcTagsText.includes(lcFilterText)
+      const hasTag = array.intersection(tags, filterTags).length > 0 // 标签
+      const hasTxt = includes(hanziTxt, pinyinTxt, lcFilterText) // 文本
       return hasTag && hasTxt
     })
 

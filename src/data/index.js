@@ -1,5 +1,6 @@
 import array from 'lodash/array'
 import randomColor from 'randomcolor'
+import pinyin from 'pinyin'
 
 import { sort, sortBy } from '@/util'
 import data from './data.json'
@@ -26,8 +27,24 @@ const tagColorMap = generateTagColorMap(uniqueTags)
 sort(uniqueTags)
 sortBy(data, 'title')
 
+// 处理搜索文字和拼音
+const distData = data.map(item => {
+  const { title, description, tags } = item
+  // 汉字
+  const hanziTxt = `${title}${description}${tags.join('')}`.toLowerCase()
+  // 拼音
+  const pinyinTxt = pinyin(title, {
+    style: pinyin.STYLE_NORMAL
+  }).join(' ').toLowerCase()
+  return {
+    ...item,
+    hanziTxt,
+    pinyinTxt
+  }
+})
+
 export default {
-  data,
+  data: distData,
   tags: uniqueTags,
   tagColorMap
 }
