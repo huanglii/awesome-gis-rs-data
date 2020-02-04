@@ -3,9 +3,7 @@ import { Modal, Tooltip, Icon } from 'antd'
 import config from '@/config'
 import './index.less'
 
-const { packageName } = config
-const githubUrl = `https://github.com/huanglii/${packageName}`
-const dataUrl = `https://github.com/huanglii/${packageName}/blob/master/src/data/data.json`
+const { githubUrl, dataUrl } = config
 
 class LinkBar extends Component {
   handleContributeClick () {

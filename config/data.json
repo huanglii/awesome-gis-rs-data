@@ -70,5 +70,11 @@
     "link": "http://beijingair.sinaapp.com/",
     "description": "空气质量数据类型包括PM2.5, PM10, SO2, NO2, O3, CO, AQI。气象数据要素包括气温、气压、露点、风向风速、云量、降水量。",
     "tags": ["空气质量", "气象"]
+  },
+  {
+    "title": "NASA Earth Science Data",
+    "link": "https://earthdata.nasa.gov/",
+    "description": "美国国家航空航天局地球科学数据",
+    "tags": ["大气", "土地", "海洋"]
   }
 ]

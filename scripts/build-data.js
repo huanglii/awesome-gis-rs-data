@@ -1,9 +1,18 @@
-import array from 'lodash/array'
-import randomColor from 'randomcolor'
-import pinyin from 'pinyin'
+const fs = require('fs')
 
-import { sort, sortBy } from '@/util'
-import data from './data.json'
+const array = require('lodash/array')
+const randomColor = require('randomcolor')
+const pinyin = require('pinyin')
+
+const data = require('../config/data.json')
+
+function sort (arr) {
+  arr.sort((a, b) => b.localeCompare(a))
+}
+
+function sortBy (arr, value) {
+  arr.sort((a, b) => b[value].localeCompare(a[value]))
+}
 
 function generateTagColorMap (tags) {
   const tagColorMap = {}
@@ -43,8 +52,10 @@ const distData = data.map(item => {
   }
 })
 
-export default {
+const result = {
   data: distData,
   tags: uniqueTags,
   tagColorMap
 }
+
+fs.writeFileSync('src/config/data.json', JSON.stringify(result))
