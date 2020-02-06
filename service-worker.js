@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/awesome-gis-rs-data/precache-manifest.e246831cc072d8aac477211449e91b7e.js"
+  "/awesome-gis-rs-data/precache-manifest.f352c0265e83fa8f95d908086e0e3a3a.js"
 );
 
 self.addEventListener('message', (event) => {
