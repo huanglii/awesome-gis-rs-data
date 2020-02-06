@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import randomColor from 'randomcolor'
 import { Card, Avatar, Typography, message } from 'antd'
 
 import TagGroup from '../TagGroup'
@@ -11,10 +10,6 @@ const { Title, Paragraph } = Typography
 class DataItem extends Component {
   static propTypes = {
     data: PropTypes.object
-  }
-
-  state = {
-    color: randomColor({ luminosity: 'bright' })
   }
 
   handleItemClick (url) {
@@ -37,8 +32,7 @@ class DataItem extends Component {
   }
 
   render () {
-    const { title, description, tags, link } = this.props.data
-    const { color } = this.state
+    const { title, description, tags, link, color } = this.props.data
     return (
       <Card className='data-item' hoverable>
         <div className='item-avatar'>

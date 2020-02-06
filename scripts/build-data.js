@@ -47,6 +47,7 @@ const distData = data.map(item => {
   }).join(' ').toLowerCase()
   return {
     ...item,
+    color: randomColor({ luminosity: 'bright' }),
     hanziTxt,
     pinyinTxt
   }
