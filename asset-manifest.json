@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/awesome-gis-rs-data/static/css/main.908c905a.chunk.css",
-    "main.js": "/awesome-gis-rs-data/static/js/main.20bab8f1.chunk.js",
+    "main.js": "/awesome-gis-rs-data/static/js/main.d3f7317b.chunk.js",
     "runtime-main.js": "/awesome-gis-rs-data/static/js/runtime-main.87a003d0.js",
-    "static/css/2.661c9b99.chunk.css": "/awesome-gis-rs-data/static/css/2.661c9b99.chunk.css",
-    "static/js/2.c84ab757.chunk.js": "/awesome-gis-rs-data/static/js/2.c84ab757.chunk.js",
+    "static/css/2.7098a234.chunk.css": "/awesome-gis-rs-data/static/css/2.7098a234.chunk.css",
+    "static/js/2.ea098510.chunk.js": "/awesome-gis-rs-data/static/js/2.ea098510.chunk.js",
     "index.html": "/awesome-gis-rs-data/index.html",
-    "precache-manifest.f352c0265e83fa8f95d908086e0e3a3a.js": "/awesome-gis-rs-data/precache-manifest.f352c0265e83fa8f95d908086e0e3a3a.js",
+    "precache-manifest.5677aed43eb485161244fab25631d3b9.js": "/awesome-gis-rs-data/precache-manifest.5677aed43eb485161244fab25631d3b9.js",
     "service-worker.js": "/awesome-gis-rs-data/service-worker.js",
-    "static/js/2.c84ab757.chunk.js.LICENSE": "/awesome-gis-rs-data/static/js/2.c84ab757.chunk.js.LICENSE",
+    "static/js/2.ea098510.chunk.js.LICENSE": "/awesome-gis-rs-data/static/js/2.ea098510.chunk.js.LICENSE",
     "static/media/index.less": "/awesome-gis-rs-data/static/media/bg.3b513c42.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.87a003d0.js",
-    "static/css/2.661c9b99.chunk.css",
-    "static/js/2.c84ab757.chunk.js",
+    "static/css/2.7098a234.chunk.css",
+    "static/js/2.ea098510.chunk.js",
     "static/css/main.908c905a.chunk.css",
-    "static/js/main.20bab8f1.chunk.js"
+    "static/js/main.d3f7317b.chunk.js"
   ]
 }
