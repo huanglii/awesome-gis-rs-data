@@ -47,7 +47,7 @@ class DataItem extends Component {
             {title}
           </Title>
         </div>
-        <Paragraph className='item-desc' ellipsis={{ rows: 2, expandable: true }}>{description}</Paragraph>
+        <Paragraph className='item-desc' ellipsis={{ rows: 3, expandable: true }}>{description}</Paragraph>
         <TagGroup tags={tags} />
       </Card>
     )

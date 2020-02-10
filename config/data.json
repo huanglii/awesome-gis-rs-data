@@ -2,62 +2,32 @@
   {
     "title": "高德行政区划下载",
     "link": "https://giser.xyz/demo/03-Dist-AMap/index.html",
-    "description": "利用高德地图 API 扩展的行政区划下载工具，可下载省、市、区/县级别。",
+    "description": "利用高德地图 API 扩展的行政区划下载工具，可下载省、市、区/县级别",
     "tags": ["区划"]
   },
   {
     "title": "全国地理信息资源目录服务系统",
     "link": "http://www.webmap.cn/",
-    "description": "国家基础测绘地理信息资源共享目录，包含：30米全球地表覆盖数据、1:100万和1:25万全国基础地理数据库等。",
-    "tags": ["全国", "基础", "地理信息", "地表覆盖"]
+    "description": "国家地理信息公共服务平台，测绘成果查询，基础地理数据下载",
+    "tags": ["基础地理信息", "地表覆盖"]
   },
   {
     "title": "地理空间数据云",
     "link": "http://www.gscloud.cn/",
-    "description": "遥感数据一站式服务，包含：免费数据（LANDSAT、MODIS等）、商业数据（高分系列、资源系列等）。",
-    "tags": ["遥感", "LANDSAT", "MODIS", "DEM"]
+    "description": "遥感数据一站式服务，包含：免费数据（LANDSAT、MODIS、DEM 等）、商业数据（高分系列、资源系列、环境系列等）",
+    "tags": ["遥感"]
   },
   {
     "title": "资源环境数据云平台",
     "link": "http://www.resdc.cn/",
-    "description": "中国科学院资源环境科学数据中心，注册后可免费下载。",
-    "tags": ["区划", "气象", "土地利用", "植被类型", "土壤", "夜间灯光", "DEM"]
+    "description": "中国科学院资源环境科学数据中心，包括长期野外观测数据、实验室模拟与理化分析数据、人文经济实证调查数据和遥感对地观测数据等，注册后可免费下载。数据目录：中国行政区划数据 | 中国自然地理分区数据 | 中国气象数据 | 中国土地利用遥感监测数据 | 中国陆地生态系统宏观结构数据 | 植被类型数据 | 土壤数据 | 社会经济数据 | 城市空气质量监测数据 | 中国净第一性生产力NPP数据 | 高分辨率卫星遥感影像数据 | 中分辨率卫星遥感影像数据 | 全球100万基础地理数据 | 地形地貌数据 | 中国水系流域空间分布数据集 | 中国长时间序列植被指数（NDVI）空间分布数据集 | 道路数据 | 全国兴趣点POI数据 | 中国陆地生态系统服务价值空间分布数据集 | 全球夜间灯光数据 | 中国农田生产潜力数据集 | 中国农田熟制空间分布数据集 | 城市建筑底面轮廓和高度空间分布数据集 | 自然保护区边界数据 | 北京老地图 | 东北亚自然地理背景数据 | 地震地质数据 | 台风路径数据 | 台湾资源环境数据",
+    "tags": ["野外观测", "实验数据", "人文经济", "遥感"]
   },
   {
     "title": "国家地球系统科学数据中心",
     "link": "http://www.geodata.cn/",
-    "description": "提供大气圈、陆地表层、陆地水圈、冰冻圈、海洋、极地等地理数据。注册后可免费下载。",
-    "tags": ["大气", "区划", "土地", "水文", "自然资源", "经济", "遥感"]
-  },
-  {
-    "title": "Natural Earth",
-    "link": "http://www.naturalearthdata.com/",
-    "description": "提供全球范围内的矢量和影像数据。",
-    "tags": ["全球", "矢量", "影像"]
-  },
-  {
-    "title": "北京大学图书馆-数据库导航",
-    "link": "http://dbnav.lib.pku.edu.cn/",
-    "description": "数据库检索导航。",
-    "tags": ["数据库"]
-  },
-  {
-    "title": "SRTM Data",
-    "link": "http://srtm.csi.cgiar.org/",
-    "description": "SRTM数据主要是由美国航空航天局（NASA）和国防部国家测绘局（NIMA)联合测量的，SRTM的全称Shuttle Radar Topography Mission，即航天飞机雷达地形测绘使命。SRTM的数据是用16位的数值表示高程数值的，最大的正高程9000m，负高程海平面以下12000m。",
-    "tags": ["SRTM", "DEM"]
-  },
-  {
-    "title": "USGS - GIS Data",
-    "link": "https://www.usgs.gov/products/data-and-tools/gis-data",
-    "description": "GIS 数据",
-    "tags": ["气候", "环境", "自然灾害", "土地利用", "地震"]
-  },
-  {
-    "title": "USGS - EarthExplorer",
-    "link": "https://earthexplorer.usgs.gov/",
-    "description": "遥感数据集，需注册登录",
-    "tags": ["遥感", "LANDSAT"]
+    "description": "平台涉及全国层面的地表过程与人地关系数据、典型区域地表过程与人地关系数据、全球变化与区域响应综合集成数据产品、日地系统与空间环境数据、国际数据资源5个一级类和29个二级类。注册后可免费下载。数据分类体系：大气圈 | 陆地表层 | 陆地水圈 | 冰冻圈 | 海洋 | 极地 | 固体地球 | 古环境 | 日地空间环境与天文 | 遥感数据",
+    "tags": ["人地关系", "全球变化", "空间环境"]
   },
   {
     "title": "国家气象科学数据中心",
@@ -70,6 +40,36 @@
     "link": "http://beijingair.sinaapp.com/",
     "description": "空气质量数据类型包括PM2.5, PM10, SO2, NO2, O3, CO, AQI。气象数据要素包括气温、气压、露点、风向风速、云量、降水量。",
     "tags": ["空气质量", "气象"]
+  },
+  {
+    "title": "北京大学图书馆-数据库导航",
+    "link": "http://dbnav.lib.pku.edu.cn/",
+    "description": "北大图书馆数据库检索导航，可按学科、内容类型、语种、主题等查询相关数据库",
+    "tags": ["自然科学", "环境科学", "地球科学"]
+  },
+  {
+    "title": "Natural Earth",
+    "link": "http://www.naturalearthdata.com/",
+    "description": "提供全球范围内的矢量和影像数据 | Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales.",
+    "tags": ["矢量", "影像", "城市", "河流"]
+  },
+  {
+    "title": "SRTM Data",
+    "link": "http://srtm.csi.cgiar.org/",
+    "description": "SRTM 数据主要是由美国航空航天局（NASA）和国防部国家测绘局（NIMA)联合测量的。SRTM的数据是用16位的数值表示高程数值的，最大的正高程9000m，负高程海平面以下12000m。",
+    "tags": ["SRTM", "DEM"]
+  },
+  {
+    "title": "USGS - GIS Data",
+    "link": "https://www.usgs.gov/products/data-and-tools/gis-data",
+    "description": "主题分类：生物学与生态系统 | 工民科学 | 海岸 | 数据、工具和技术 | 能源 | 环境健康 | 地质 | 土地资源 | 制图、遥感和地理空间数据 | 矿物 | 自然灾害 | 海洋 | 行星科学",
+    "tags": ["气候", "环境", "自然灾害", "土地", "遥感"]
+  },
+  {
+    "title": "USGS - EarthExplorer",
+    "link": "https://earthexplorer.usgs.gov/",
+    "description": "遥感数据集，需注册登录",
+    "tags": ["遥感"]
   },
   {
     "title": "NASA Earth Science Data",
