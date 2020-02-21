@@ -4,7 +4,6 @@
 [Awesome-GIS-RS-Data](https://giser.xyz/awesome-gis-rs-data/)
 
 ## 🤝 参与共建
-
 [GitHub:data](https://github.com/huanglii/awesome-gis-rs-data/blob/master/config/data.json) 或 <849151701@qq.com>
 ``` json
 {
@@ -15,16 +14,5 @@
 }
 ```
 
-## 📦 本地开发
-
-```bash
-npm i
-npm start
-```
-
-或
-
-```bash
-yarn
-yarn start
-```
+## 📦 参考
+* [【遥感学报】资源分享第二弹，数据资料大荟萃](https://mp.weixin.qq.com/s/7h05TFAXxIk0mhhWPAuupA)

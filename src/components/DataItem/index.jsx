@@ -42,6 +42,7 @@ class DataItem extends Component {
           <Title
             level={4}
             ellipsis
+            title={title}
             onClick={() => this.handleItemClick(link)}
           >
             {title}

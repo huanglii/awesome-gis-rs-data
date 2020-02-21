@@ -31,7 +31,7 @@ class DataList extends Component {
       <List
         className='data-list'
         grid={{
-          gutter: 24,
+          gutter: 16,
           xs: 1,
           sm: 1,
           md: 2,
