@@ -2,14 +2,13 @@
   padding-top: 30px;
   padding-bottom: 60px;
   background: url(~@/assets/bg.jpg) repeat center;
-  // background: url(http://www.ypppt.com/style/index-header.jpg) repeat center;
   &-container {
     max-width: @app-max-width;
     margin: 0 auto;
     padding: 16px;
     text-align: center;
   }
-  h1, h3, input, i, .ant-tag {
+  h1, h3, input, i, span, .ant-tag {
     color: #eee;
   }
   .search-text {
@@ -19,11 +18,18 @@
     border-radius: 5px;
     background-color: rgba(255,255,255,0.18);
     .text-input {
+      height: 50px;
+      background-color: rgba(255,255,255,0.35);
+      border-color: #696969;
+      &:hover {
+        border-color: @primary-color;
+      }
       input {
-        height: 50px;
-        border-color: #696969;
         font-size: 18px;
-        background-color: rgba(255,255,255,0.35);
+        background: transparent;
+      }
+      .ant-input-clear-icon {
+        vertical-align: -4px;
       }
     }
   }

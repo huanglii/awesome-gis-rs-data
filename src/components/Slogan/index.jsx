@@ -11,7 +11,7 @@ class Slogan extends Component {
       <Consumer>
         {({ dataCount }) => (
           <div className='slogan'>
-            <h1><IconFont type='icon-earth' /><span>Awesome GIS / RS Data</span></h1>
+            <h1><IconFont type='icon-earth' className='earth' /><span>Awesome GIS / RS Data</span></h1>
             <h3>已收录<span className='count'>{dataCount}</span>条</h3>
           </div>
         )}

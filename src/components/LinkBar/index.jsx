@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Modal, Tooltip, Icon } from 'antd'
+import { GithubOutlined, MailOutlined, PlusCircleOutlined } from '@ant-design/icons'
+import { Modal, Tooltip } from 'antd'
 import config from '@/config'
 import './index.less'
 
@@ -12,10 +13,10 @@ class LinkBar extends Component {
       content: (
         <p style={{ margin: '36px 0 0' }}>
           <a href={dataUrl} rel='noopener noreferrer' target='_blank'>
-            <Icon type='github' /> GitHub
+            <GithubOutlined /> GitHub
           </a>
           <a href='mailto:849151701@qq.com' style={{ marginLeft: '1.5em' }}>
-            <Icon type='mail' /> 849151701@qq.com
+            <MailOutlined /> 849151701@qq.com
           </a>
         </p>
       )
@@ -27,11 +28,11 @@ class LinkBar extends Component {
       <div className='link-bar'>
         <Tooltip placement='bottom' title='GitHub'>
           <a href={githubUrl} rel='noopener noreferrer' target='_blank'>
-            <Icon type='github' />
+            <GithubOutlined />
           </a>
         </Tooltip>
         <Tooltip placement='bottom' title='欢迎投稿'>
-          <Icon type='plus-circle' onClick={this.handleContributeClick} />
+          <PlusCircleOutlined onClick={this.handleContributeClick} />
         </Tooltip>
       </div>
     )
