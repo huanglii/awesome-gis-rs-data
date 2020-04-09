@@ -6,14 +6,6 @@ const pinyin = require('pinyin')
 
 const data = require('../config/data.json')
 
-function sort (arr) {
-  arr.sort((a, b) => a.localeCompare(b))
-}
-
-function sortBy (arr, value) {
-  arr.sort((a, b) => a[value].localeCompare(b[value]))
-}
-
 function generateTagColorMap (tags) {
   const tagColorMap = {}
   const count = tags.length
@@ -32,12 +24,8 @@ const uniqueTags = array.union(...tags)
 // 标签唯一颜色
 const tagColorMap = generateTagColorMap(uniqueTags)
 
-// 排序
-sort(uniqueTags)
-// sortBy(data, 'title')
-
 // 处理搜索文字和拼音
-const distData = data.map(item => {
+const distData = data.map((item, index) => {
   const { title, description, tags } = item
   // 汉字
   const hanziTxt = `${title}${description}${tags.join('')}`.toLowerCase()
@@ -47,6 +35,7 @@ const distData = data.map(item => {
   }).join(' ').toLowerCase()
   return {
     ...item,
+    id: index,
     color: randomColor({ luminosity: 'bright' }),
     hanziTxt,
     pinyinTxt
@@ -59,4 +48,4 @@ const result = {
   tagColorMap
 }
 
-fs.writeFileSync('src/config/data.json', JSON.stringify(result))
+fs.writeFileSync('src/data/data.json', JSON.stringify(result))

@@ -6,7 +6,7 @@ import SearchBar from '@/components/SearchBar'
 import DataList from '@/components/DataList'
 import FooterBar from '@/components/FooterBar'
 
-import staticData from '@/config/data.json'
+import staticData from '@/data/data.json'
 const { data, tags, tagColorMap } = staticData
 
 class App extends Component {
