@@ -25,7 +25,7 @@ const uniqueTags = array.union(...tags)
 const tagColorMap = generateTagColorMap(uniqueTags)
 
 // 处理搜索文字和拼音
-const distData = data.map((item, index) => {
+const distData = data.map(item => {
   const { title, description, tags } = item
   // 汉字
   const hanziTxt = `${title}${description}${tags.join('')}`.toLowerCase()
@@ -35,7 +35,6 @@ const distData = data.map((item, index) => {
   }).join(' ').toLowerCase()
   return {
     ...item,
-    id: index,
     color: randomColor({ luminosity: 'bright' }),
     hanziTxt,
     pinyinTxt

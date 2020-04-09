@@ -13,6 +13,3 @@
   "tags": ["标签1", "标签2"]
 }
 ```
-
-## 📦 参考
-* [【遥感学报】资源分享第二弹，数据资料大荟萃](https://mp.weixin.qq.com/s/7h05TFAXxIk0mhhWPAuupA)

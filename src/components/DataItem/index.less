@@ -19,9 +19,6 @@
     margin-left: 240px;
     padding: 16px 32px;
     position: relative;
-    @media (max-width: 760px) {
-      margin-left: 0;
-    }
     .item-avatar {
       position: absolute;
       right: 16px;
@@ -47,6 +44,16 @@
     .ant-tag {
       cursor: pointer;
       user-select: none;
+    }
+    @media (max-width: 760px) {
+      margin-left: 0;
+      .item-avatar {
+        position: static;
+        float: left;
+      }
+      .item-title {
+        padding-left: 58px;
+      }
     }
   }
 }
