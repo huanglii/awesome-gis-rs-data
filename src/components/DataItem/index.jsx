@@ -5,7 +5,7 @@ import { Card, Avatar, Typography, message } from 'antd'
 import TagGroup from '../TagGroup'
 import './index.less'
 
-const { Title, Paragraph } = Typography
+const { Title } = Typography
 
 class DataItem extends Component {
   static propTypes = {
@@ -32,24 +32,33 @@ class DataItem extends Component {
   }
 
   render () {
-    const { title, description, tags, link, color } = this.props.data
+    const { id, title, description, tags, link, color } = this.props.data
     return (
       <Card className='data-item' hoverable>
-        <div className='item-avatar'>
-          <Avatar size={48} style={{ backgroundColor: color }}>{this.subTitle(title)}</Avatar>
+        <div className='data-item-cover'>
+          <img
+            alt={title}
+            src={'./images/' + id + '.jpg'}
+          />
         </div>
-        <div className='item-title'>
-          <Title
-            level={4}
-            ellipsis
-            title={title}
-            onClick={() => this.handleItemClick(link)}
-          >
-            {title}
-          </Title>
+        <div className='data-item-main'>
+          <div className='item-avatar'>
+            <Avatar size={48} style={{ backgroundColor: color }}>{this.subTitle(title)}</Avatar>
+          </div>
+          <div className='item-title'>
+            <Title
+              level={4}
+              ellipsis
+              title={title}
+              onClick={() => this.handleItemClick(link)}
+            >
+              {title}
+            </Title>
+          </div>
+          {/* <Paragraph className='item-desc' ellipsis={{ rows: 2, expandable: false }}>{description}</Paragraph> */}
+          <span className='item-desc' title={description}>{description}</span>
+          <TagGroup tags={tags} />
         </div>
-        <Paragraph className='item-desc' ellipsis={{ rows: 3, expandable: true }}>{description}</Paragraph>
-        <TagGroup tags={tags} />
       </Card>
     )
   }

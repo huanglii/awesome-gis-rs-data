@@ -48,4 +48,4 @@ const result = {
   tagColorMap
 }
 
-fs.writeFileSync('src/data/data.json', JSON.stringify(result))
+fs.writeFileSync('src/config/data.json', JSON.stringify(result))

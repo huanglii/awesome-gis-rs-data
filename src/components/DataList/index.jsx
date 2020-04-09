@@ -30,14 +30,13 @@ class DataList extends Component {
     return (
       <List
         className='data-list'
-        grid={{
-          gutter: 16,
-          xs: 1,
-          sm: 1,
-          md: 2,
-          lg: 2,
-          xl: 3,
-          xxl: 3
+        itemLayout='vertical'
+        size='large'
+        pagination={{
+          onChange: page => {
+            console.log(page)
+          },
+          pageSize: 5
         }}
         dataSource={filterData}
         renderItem={item => (

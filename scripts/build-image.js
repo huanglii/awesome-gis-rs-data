@@ -4,7 +4,7 @@ const fs = require('fs')
 const puppeteer = require('puppeteer-core')
 const findChrome = require('carlo/lib/find_chrome')
 
-const { data } = require('../src/data/data.json')
+const { data } = require('../src/config/data.json')
 
 const outputDir = path.join(__dirname, '../public/images')
 
@@ -23,14 +23,9 @@ async function screenshot (data) {
 
   // 访问数据中的链接并截图
   let path = ''
-  const ddd = [15, 16, 17, 18, 19, 20, 21, 22, 24, 26, 27]
   for (let i = 0; i < data.length; i++) {
     const { id, link: url, title } = data[i]
     path = `${outputDir}/${id}.jpg`
-    if (ddd.includes(id)) {
-      console.log(`${id}-${title} 跳过`)
-      continue
-    }
     if (fs.existsSync(path)) {
       console.log(`${id}-${title}: ${id}.jpg 已存在`)
     } else {
