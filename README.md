@@ -13,3 +13,7 @@
   "tags": ["标签1", "标签2"]
 }
 ```
+
+## 📦 参考	
+* [【遥感学报】资源分享第二弹，数据资料大荟萃](https://mp.weixin.qq.com/s/7h05TFAXxIk0mhhWPAuupA)
+* [【小猿猴GISer】世界自然基金会(WWF)上的GIS数据集](https://mp.weixin.qq.com/s/AaI_tzjDXIFWKQLBRNTPEw)

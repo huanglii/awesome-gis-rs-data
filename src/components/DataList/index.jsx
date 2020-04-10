@@ -33,9 +33,6 @@ class DataList extends Component {
         itemLayout='vertical'
         size='large'
         pagination={{
-          onChange: page => {
-            console.log(page)
-          },
           pageSize: 5
         }}
         dataSource={filterData}

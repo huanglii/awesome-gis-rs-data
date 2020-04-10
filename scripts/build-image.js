@@ -4,7 +4,7 @@ const fs = require('fs')
 const puppeteer = require('puppeteer-core')
 const findChrome = require('carlo/lib/find_chrome')
 
-const { data } = require('../src/config/data.json')
+const data = require('../config/data.json')
 
 const outputDir = path.join(__dirname, '../public/images')
 

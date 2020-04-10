@@ -21,13 +21,13 @@
   "title": "资源环境数据云平台",
   "link": "http://www.resdc.cn/",
   "description": "中国科学院资源环境科学数据中心，包括长期野外观测数据、实验室模拟与理化分析数据、人文经济实证调查数据和遥感对地观测数据等，注册后可免费下载。数据目录：中国行政区划数据 | 中国自然地理分区数据 | 中国气象数据 | 中国土地利用遥感监测数据 | 中国陆地生态系统宏观结构数据 | 植被类型数据 | 土壤数据 | 社会经济数据 | 城市空气质量监测数据 | 中国净第一性生产力NPP数据 | 高分辨率卫星遥感影像数据 | 中分辨率卫星遥感影像数据 | 全球100万基础地理数据 | 地形地貌数据 | 中国水系流域空间分布数据集 | 中国长时间序列植被指数（NDVI）空间分布数据集 | 道路数据 | 全国兴趣点POI数据 | 中国陆地生态系统服务价值空间分布数据集 | 全球夜间灯光数据 | 中国农田生产潜力数据集 | 中国农田熟制空间分布数据集 | 城市建筑底面轮廓和高度空间分布数据集 | 自然保护区边界数据 | 北京老地图 | 东北亚自然地理背景数据 | 地震地质数据 | 台风路径数据 | 台湾资源环境数据",
-  "tags": ["行政区划", "气象", "土地利用", "植被", "空气质量"]
+  "tags": ["行政区划", "气象", "土地", "植被", "空气质量"]
 }, {
   "id": "guojiadiqiuxitongkexueshujuzhongxin",
   "title": "国家地球系统科学数据中心",
   "link": "http://www.geodata.cn/",
   "description": "平台涉及全国层面的地表过程与人地关系数据、典型区域地表过程与人地关系数据、全球变化与区域响应综合集成数据产品、日地系统与空间环境数据、国际数据资源5个一级类和29个二级类。数据分类体系：大气圈 | 陆地表层 | 陆地水圈 | 冰冻圈 | 海洋 | 极地 | 固体地球 | 古环境 | 日地空间环境与天文 | 遥感数据。注册后可免费下载。",
-  "tags": ["行政区划", "土地利用", "湖泊/水库", "环境"]
+  "tags": ["行政区划", "土地", "湖泊/水库", "环境"]
 }, {
   "id": "guojiaqingcanggaoyuankexueshujuzhongxin",
   "title": "国家青藏高原科学数据中心",
@@ -69,13 +69,19 @@
   "title": "OSGeo 中国 - 数据",
   "link": "https://www.osgeo.cn/data/",
   "description": "典型区域：东北地区、黄土高原、陕北地区、青藏高原；学科分类数据：自然地理、统计数据、人文社科、自然灾害、农业科学、气象科学、生物科学、生态学；全球数据：自然地理数据、东北亚基础统计数据、一带一路基础国情数据。",
-  "tags": ["基础数据", "土地利用", "河流", "土壤"]
+  "tags": ["基础数据", "土地", "河流", "土壤"]
 }, {
   "id": "beijingdaxuetushuguan-shujukudaohang",
   "title": "北京大学图书馆-数据库导航",
   "link": "http://dbnav.lib.pku.edu.cn/",
   "description": "北大图书馆数据库检索导航，可按学科、内容类型、语种、主题等查询相关数据库",
   "tags": ["自然科学", "环境科学", "地球科学"]
+}, {
+  "id": "tsinghua-globallandcover",
+  "title": "清华大学 | Finer Resolution Observation and Monitoring - Global Land Cover",
+  "link": "http://data.ess.tsinghua.edu.cn/",
+  "description": "北大图书馆数据库检索导航，可按学科、内容类型、语种、主题等查询相关数据库",
+  "tags": ["土地"]
 }, {
   "id": "naturalearth",
   "title": "Natural Earth",
@@ -161,11 +167,11 @@
   "description": "多金属结核、多金属硫化物、锰铁结壳、中央数据仓库等多个地质资料数据库，同时也含有丰富的生物资源数据库，生物多样性与环境监测等一系列数据。",
   "tags": ["海底"]
 }, {
-  "id": "quanqiushidishujuzhongxin",
-  "title": "全球湿地数据中心",
-  "link": "https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database",
+  "id": "shijieziranjijinhui(wwf)-shujuji",
+  "title": "世界自然基金会(WWF) - 数据集",
+  "link": "https://www.worldwildlife.org/pages/conservation-science-data-and-tools",
   "description": "本数据库以野外调查获得的湿地属性信息和基于遥感手段获得的湿地空间分布信息为基础，同时也包括众多湿地研究成果，如人类活动对典型区域湿地生态环境影响，湿地专题图件等。",
-  "tags": ["湿地", "湖泊", "遥感"]
+  "tags": ["湿地", "湖泊", "海洋", "水文"]
 }, {
   "id": "quanqiubingxueshujuzhongxin",
   "title": "全球冰雪数据中心",

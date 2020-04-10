@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import array from 'lodash/array'
+// import array from 'lodash/array'
 
 import Tag from './Tag'
 
@@ -32,8 +32,13 @@ class TagCloud extends Component {
   }
 
   handleTagsChange = (tag, checked) => {
-    const { filter } = this.props
-    const checkedTags = checked ? array.union(filter, [tag]) : array.without(filter, tag)
+    // 多选
+    // const { filter } = this.props
+    // const checkedTags = checked ? array.union(filter, [tag]) : array.without(filter, tag)
+    // this.props.onChange(checkedTags)
+
+    // 单选
+    const checkedTags = checked ? [tag] : []
     this.props.onChange(checkedTags)
   }
 
