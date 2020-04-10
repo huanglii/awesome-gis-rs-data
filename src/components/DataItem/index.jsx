@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Card, Avatar, Typography, message } from 'antd'
 
-import TagGroup from '../TagGroup'
+import DataTag from '../DataTag'
 import './index.less'
 
 const { Title } = Typography
@@ -56,7 +56,7 @@ class DataItem extends Component {
             </Title>
           </div>
           <span className='item-desc' title={description}>{description}</span>
-          <TagGroup tags={tags} />
+          <DataTag tags={tags} />
         </div>
       </Card>
     )

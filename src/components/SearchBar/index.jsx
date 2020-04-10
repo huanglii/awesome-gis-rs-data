@@ -10,13 +10,8 @@ import './index.less'
 
 class SearchBar extends Component {
   static propTypes = {
-    tags: PropTypes.array,
     onFilterTextChange: PropTypes.func,
     onFilterTagsChange: PropTypes.func
-  }
-
-  static defaultProps = {
-    tags: []
   }
 
   state = {
@@ -45,7 +40,6 @@ class SearchBar extends Component {
   }
 
   render () {
-    const { tags } = this.props
     const { filterText, filterTags } = this.state
     return (
       <div className='search-bar'>
@@ -61,7 +55,7 @@ class SearchBar extends Component {
             />
           </div>
           <div className='search-tag'>
-            <CheckTag tags={tags} filter={filterTags} onChange={this.handleFilterTagsChange} />
+            <CheckTag filter={filterTags} onChange={this.handleFilterTagsChange} />
           </div>
           <Tooltip placement='bottom' title='清空'>
             <IconFont className='search-clear' type='icon-clear' onClick={this.handleClearFilterTags} />

@@ -16,13 +16,28 @@ function generateTagColorMap (tags) {
   return tagColorMap
 }
 
-const tags = data.map(item => {
+/**
+ * 标签处理
+ */
+
+// 所有标签（含重复）
+const tagsAll = array.flatten(data.map(item => {
   return item.tags
-})
+}))
+const tagMap = tagsAll.reduce((prev, next) => prev.set(next, (prev.get(next) || 0) + 1), new Map())
 // 唯一标签
-const uniqueTags = array.union(...tags)
+const uniqueTags = Array.from(tagMap.keys())
 // 标签唯一颜色
 const tagColorMap = generateTagColorMap(uniqueTags)
+
+const tags = []
+for (const [key, value] of tagMap) {
+  tags.push({
+    value: key,
+    count: value,
+    color: tagColorMap[key]
+  })
+}
 
 // 处理搜索文字和拼音
 const distData = data.map(item => {
@@ -43,7 +58,8 @@ const distData = data.map(item => {
 
 const result = {
   data: distData,
-  tags: uniqueTags,
+  tags,
+  uniqueTags,
   tagColorMap
 }
 

@@ -7,15 +7,15 @@ import DataList from '@/components/DataList'
 import FooterBar from '@/components/FooterBar'
 
 import staticData from '@/config/data.json'
-const { data, tags, tagColorMap } = staticData
+const { data, uniqueTags, tagColorMap } = staticData
 
 class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
       filterText: '',
-      filterTags: tags,
-      uniqueTags: tags,
+      filterTags: uniqueTags,
+      uniqueTags: uniqueTags,
       tagColorMap: tagColorMap
     }
   }
