@@ -80,7 +80,7 @@
   "id": "tsinghua-globallandcover",
   "title": "清华大学 | Finer Resolution Observation and Monitoring - Global Land Cover",
   "link": "http://data.ess.tsinghua.edu.cn/",
-  "description": "北大图书馆数据库检索导航，可按学科、内容类型、语种、主题等查询相关数据库",
+  "description": "FROM-GLC (Finer Resolution Observation and Monitoring of Global Land Cover)",
   "tags": ["土地"]
 }, {
   "id": "naturalearth",
