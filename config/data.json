@@ -1,7 +1,7 @@
 [{
   "id": "gaodexingzhengquhuaxiazai",
   "title": "高德行政区划下载",
-  "link": "https://giser.xyz/demo/03-Dist-AMap/index.html",
+  "link": "https://huanglii.github.io/demo/03-Dist-AMap/index.html",
   "description": "利用高德地图 API 扩展的行政区划下载工具，可下载省、市、区/县级别",
   "tags": ["行政区划"]
 }, {
@@ -16,6 +16,12 @@
   "link": "http://www.gscloud.cn/",
   "description": "遥感数据一站式服务，包含：免费数据（LANDSAT、MODIS、DEM 等）、商业数据（高分系列、资源系列、环境系列等）",
   "tags": ["遥感", "DEM"]
+}, {
+  "id": "yaoganshujujiyaoganxuebaozhuanji",
+  "title": "遥感数据集-遥感学报专辑",
+  "link": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2MTM4MTYzOQ==&action=getalbum&album_id=1684332637370302467&scene=173&from_msgid=2247515429&from_itemidx=1&count=3#wechat_redirect",
+  "description": "《遥感学报》持续为您分享遥感及相关领域数据集",
+  "tags": ["遥感"]
 }, {
   "id": "ziyuanhuanjingshujuyunpingtai",
   "title": "资源环境数据云平台",
