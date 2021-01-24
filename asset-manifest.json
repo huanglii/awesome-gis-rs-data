@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.ba20c9f6.chunk.css",
-    "main.js": "./static/js/main.4a62379c.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.ff6edf1b.js",
-    "static/css/2.759a6b9d.chunk.css": "./static/css/2.759a6b9d.chunk.css",
-    "static/js/2.84dc96f1.chunk.js": "./static/js/2.84dc96f1.chunk.js",
-    "index.html": "./index.html",
-    "precache-manifest.03f339663c5858f1863d9973c538ffab.js": "./precache-manifest.03f339663c5858f1863d9973c538ffab.js",
-    "service-worker.js": "./service-worker.js",
-    "static/js/2.84dc96f1.chunk.js.LICENSE": "./static/js/2.84dc96f1.chunk.js.LICENSE",
-    "static/media/index.less": "./static/media/bg.3b513c42.jpg"
+    "main.css": "/awesome-gis-rs-data/static/css/main.ef63870c.chunk.css",
+    "main.js": "/awesome-gis-rs-data/static/js/main.fd7a4e93.chunk.js",
+    "runtime-main.js": "/awesome-gis-rs-data/static/js/runtime-main.87a003d0.js",
+    "static/css/2.759a6b9d.chunk.css": "/awesome-gis-rs-data/static/css/2.759a6b9d.chunk.css",
+    "static/js/2.337cd8e5.chunk.js": "/awesome-gis-rs-data/static/js/2.337cd8e5.chunk.js",
+    "index.html": "/awesome-gis-rs-data/index.html",
+    "precache-manifest.7688d34c155a9820cff97f5776f18491.js": "/awesome-gis-rs-data/precache-manifest.7688d34c155a9820cff97f5776f18491.js",
+    "service-worker.js": "/awesome-gis-rs-data/service-worker.js",
+    "static/js/2.337cd8e5.chunk.js.LICENSE": "/awesome-gis-rs-data/static/js/2.337cd8e5.chunk.js.LICENSE",
+    "static/media/index.less": "/awesome-gis-rs-data/static/media/bg.3b513c42.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff6edf1b.js",
+    "static/js/runtime-main.87a003d0.js",
     "static/css/2.759a6b9d.chunk.css",
-    "static/js/2.84dc96f1.chunk.js",
-    "static/css/main.ba20c9f6.chunk.css",
-    "static/js/main.4a62379c.chunk.js"
+    "static/js/2.337cd8e5.chunk.js",
+    "static/css/main.ef63870c.chunk.css",
+    "static/js/main.fd7a4e93.chunk.js"
   ]
 }
